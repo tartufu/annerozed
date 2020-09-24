@@ -1,0 +1,141 @@
+h1, h2, h3 {
+	font-family: 'Titan One', cursive;
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+}
+
+.hero-banner {
+	background-image: url("../images/hero-banner.webp");
+	background-size: cover;
+	height: 100vh;
+}
+
+.hero-banner-text {
+	color: white;
+}
+
+.hero-banner-text-div {
+	padding-top: 20%;
+	text-align: center;
+}
+
+.kofi {
+	max-width: 240px;
+}
+
+.chibi-div {
+	background-color: #c99868 
+}
+
+.chibi-div h1 {
+	text-align: center;
+}
+
+.card-title {
+	text-align: center;
+}
+
+.card {
+	margin: 0 8px;
+}
+
+.card {
+	transform: skewX(-3deg) skewY(-3deg);
+	  overflow: hidden;
+	    box-shadow: 0px 5px 14px rgba(9, 33, 58, 0.1);
+}
+
+.card img {
+	transform: skewX(3deg) skewY(3deg) scale(1.15);
+}
+
+.card h3, .card hr, .card p {
+	transform: skewX(3deg) skewY(3deg);
+}
+
+.koma-div h1{
+	text-align: center;
+}
+
+.koma-div img {
+	max-height: 480px;
+}
+
+.koma-img-gallery {
+	text-align: center;
+	width: 100%	;
+}
+
+.art-dump-div {
+	background-color: #c99868 
+}
+
+.art-dump-div h1 {
+	text-align: center;
+}
+
+.art-dump-masonry {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.card-columns {
+	column-count: 4;
+}
+
+.card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
+}
+
+.tos-div h1 {
+	text-align: center;
+}
+
+.tos-div {
+	padding-bottom: 30px;
+}
+
+
+.footer {
+	background-color: black;
+	color: white;
+	position: sticky;
+}
+
+.footer img {
+	max-height: 48px;
+	padding: 8px;
+}
+
+.footer p {
+	padding-left: 12px;
+	margin-top: 12px;
+}
+
+/*https://dev.to/hunterbecton/code-a-skewed-card-design-using-css-2d-transforms-28in
+*/
+
+
+@media screen and (min-width: 1000px) {
+	#koma-color {
+		position: relative;
+		top: 60px;
+		right: 90px;
+		padding-bottom: 60px;
+	}
+
+	#koma-gray {
+		position: relative;
+		left: 90px;
+		padding-bottom: 60px;
+		z-index: 5000;
+	}
+
+}
