@@ -90,6 +90,9 @@ p {
 }
 
 
+.koma-div {
+	max-width: 960px;
+}
 
 .koma-div h1{
 	text-align: center;
@@ -192,7 +195,7 @@ p {
 
 	#koma-gray {
 		position: relative;
-		left: 90px;
+		left: 60px;
 		padding-bottom: 60px;
 		z-index: 5000;
 	}
