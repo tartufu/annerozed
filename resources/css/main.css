@@ -55,6 +55,42 @@ p {
 	transform: skewX(3deg) skewY(3deg);
 }
 
+
+.emotes-div {
+}
+
+.emotes-div-chunk {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.emotes-div h1 {
+	text-align: center;
+}
+
+.emotes-div-gallery img {
+/*	float: left;
+	max-width: 50%;*/
+	padding: 8px;
+		float: left;
+
+}
+
+.emotes-div-gallery-gif img {
+	max-width: 50%;
+}
+
+.emotes-div-gallery-png img {
+	max-height: 80px;
+}
+
+.sword-emote img {
+	max-width: 25%;
+	padding: 1px;
+}
+
+
+
 .koma-div h1{
 	text-align: center;
 }
@@ -100,6 +136,29 @@ p {
 
 .tos-div {
 	padding-bottom: 30px;
+/*	background-color: coral;
+*/}
+
+.tos-text {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.tos-text-no ul {
+  list-style-image: url('../images/tos/sopno.png');
+}
+
+.tos-text-yes ul {
+  list-style-image: url('../images/tos/daishori.png');
+}
+
+
+.tos-text li {
+	background-color: white;
+	border-radius: 0.5rem;
+	box-shadow: 0.25rem 0.25rem 0.6rem rgba(0,0,0,0.05), 0 0.5rem 1.125rem rgba(75,0,0,0.05);
+	padding: 4px;
+	margin: 8px;
 }
 
 
