@@ -1,192 +1,226 @@
-* {
-  box-sizing: border-box;
-}
+/** {
+    box-sizing: border-box;
+}*/
 
-h1, h2, h3 {
-	font-family: 'Titan One', cursive;
+h1,
+h2,
+h3 {
+    font-family: 'Titan One', cursive;
 }
 
 p {
-	font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .hero-banner {
-	background-image: url("../images/hero-banner.png");
-	background-size: cover;
-/*	height: 100vh;*/
+    background-image: url("../images/hero-banner.png");
+    background-size: cover;
+    /*	height: 100vh;*/
 }
 
 .hero-banner-text {
-	color: white;
+    color: white;
 }
 
 .hero-banner-text-div {
-	padding: 20% 5% 20% 5%;
-	text-align: center;
+    padding: 20% 5% 20% 5%;
+    text-align: center;
 }
 
 .kofi {
-	max-width: 240px;
+    max-width: 240px;
 }
 
 .chibi-div {
-	background-color: #c99868 
+    background-color: #c99868
 }
 
 .chibi-div h1 {
-	text-align: center;
+    text-align: center;
 }
 
 .card-title {
-	text-align: center;
+    text-align: center;
 }
 
 .card {
-	margin: 0 8px;
+    margin: 0 8px;
 }
 
 .card {
-	transform: skewX(-3deg) skewY(-3deg);
-	  overflow: hidden;
-	    box-shadow: 0px 5px 14px rgba(9, 33, 58, 0.1);
+    transform: skewX(-3deg) skewY(-3deg);
+    overflow: hidden;
+    box-shadow: 0px 5px 14px rgba(9, 33, 58, 0.1);
 }
 
 .card img {
-	transform: skewX(3deg) skewY(3deg) scale(1.15);
+    transform: skewX(3deg) skewY(3deg) scale(1.15);
 }
 
-.card h3, .card hr, .card p {
-	transform: skewX(3deg) skewY(3deg);
+.card h3,
+.card hr,
+.card p {
+    transform: skewX(3deg) skewY(3deg);
 }
 
 
 .emotes-div {
-	max-width: 960px;
+    max-width: 960px;
 }
 
 .emotes-div-chunk {
-/*	max-width: 960px;
-*/	margin: 0 auto;
+    /*	max-width: 960px;
+*/
+    margin: 0 auto;
 }
 
 .emotes-div h1 {
-	text-align: center;
+    text-align: center;
 }
 
 .emotes-div-gallery img {
-/*	float: left;
+    /*	float: left;
 	max-width: 50%;*/
-	padding: 8px;
-	float: left;
+    padding: 8px;
+    float: left;
 
 }
 
 .emotes-div-gallery-gif img {
-	max-width: 50%;
+    max-width: 50%;
 }
 
 .emotes-div-gallery-png img {
-	max-height: 80px;
+    max-height: 80px;
 }
 
 .sword-emote img {
-	max-width: 25%;
-	padding: 1px;
-	max-height: 100px;
+    max-width: 25%;
+    padding: 1px;
+    max-height: 100px;
 }
 
-.koma-div {
-}
+.koma-div {}
 
-.koma-div h1{
-	text-align: center;
+.koma-div h1 {
+    text-align: center;
 }
 
 .koma-div img {
-	max-height: 480px;
+    max-height: 480px;
 }
 
 .koma-img-gallery {
-	text-align: center;
-	max-width: 500px	;
+    text-align: center;
+    max-width: 500px;
 }
 
 .koma-text {
-	padding: 16px;
+    padding: 16px;
 }
 
 .art-dump-div {
-	background-color: #c99868 
+    background-color: #c99868
 }
 
 .art-dump-div h1 {
-	text-align: center;
+    text-align: center;
 }
 
 .art-dump-masonry {
-	max-width: 960px;
-	margin: 0 auto;
+    max-width: 960px;
+    margin: 0 auto;
 }
 
 .card-columns {
-	column-count: 4;
-}
-
-.card-columns {
-  @include media-breakpoint-only(lg) {
     column-count: 4;
-  }
-  @include media-breakpoint-only(xl) {
-    column-count: 5;
-  }
+}
+
+.card-columns {
+    @include media-breakpoint-only(lg) {
+        column-count: 4;
+    }
+
+    @include media-breakpoint-only(xl) {
+        column-count: 5;
+    }
 }
 
 .tos-div h1 {
-	text-align: center;
+    text-align: center;
 }
 
 .tos-div {
-	padding-bottom: 30px;
-/*	background-color: coral;
-*/}
+    padding-bottom: 30px;
+    /*	background-color: coral;
+*/
+}
 
 .tos-text {
-	max-width: 960px;
-	margin: 0 auto;
+    max-width: 960px;
+    margin: 0 auto;
 }
 
 .tos-text-no ul {
-  list-style-image: url('../images/tos/sopno.png');
+    list-style-image: url('../images/tos/sopno.png');
 }
 
 .tos-text-yes ul {
-  list-style-image: url('../images/tos/daishori.png');
+    list-style-image: url('../images/tos/daishori.png');
 }
 
 
 .tos-text li {
-	background-color: white;
-	border-radius: 0.5rem;
-	box-shadow: 0.25rem 0.25rem 0.6rem rgba(0,0,0,0.05), 0 0.5rem 1.125rem rgba(75,0,0,0.05);
-	padding: 4px;
-	margin: 8px;
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0.25rem 0.25rem 0.6rem rgba(0, 0, 0, 0.05), 0 0.5rem 1.125rem rgba(75, 0, 0, 0.05);
+    padding: 4px;
+    margin: 8px;
 }
 
+.comparison-div {
+    background-color: #c99868;
+}
 
-.footer {
+.comparison-cards-gallery {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.comparison-card {
+	background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0.25rem 0.25rem 0.6rem rgba(0, 0, 0, 0.05), 0 0.5rem 1.125rem rgba(75, 0, 0, 0.05);
+    padding: 16px;
+}
+
+#star-card {
 	background-color: black;
 	color: white;
-	position: sticky;
+}
+
+.comparison-card-title {
+	background-color: blue;
+}
+
+.comparison-div h1 {
+    text-align: center;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    position: sticky;
 }
 
 .footer img {
-	max-height: 48px;
-	padding: 8px;
+    max-height: 48px;
+    padding: 8px;
 }
 
 .footer p {
-	padding-left: 12px;
-	margin-top: 12px;
+    padding-left: 12px;
+    margin-top: 12px;
 }
 
 /*https://dev.to/hunterbecton/code-a-skewed-card-design-using-css-2d-transforms-28in
@@ -194,29 +228,9 @@ p {
 
 @media only screen and (min-width: 1200px) {
 
-	.hero-banner {
-		background-image: url("../images/hero-banner.png");
-		background-size: cover;
-		height: 100vh;
-	}
+    .hero-banner {
+        background-image: url("../images/hero-banner.png");
+        background-size: cover;
+        height: 100vh;
+    }
 }
-
-/*@media screen and (min-width: 1000px) {
-	#koma-color {
-		position: relative;
-		top: 60px;
-		right: 90px;
-		padding-bottom: 60px;
-	}
-
-	#koma-gray {
-		position: relative;
-		left: 60px;
-		padding-bottom: 60px;
-		z-index: 5000;
-	}
-
-}*/
-
-
-
