@@ -91,7 +91,6 @@ p {
 
 
 .koma-div {
-	max-width: 960px;
 }
 
 .koma-div h1{
@@ -185,7 +184,7 @@ p {
 */
 
 
-@media screen and (min-width: 1000px) {
+/*@media screen and (min-width: 1000px) {
 	#koma-color {
 		position: relative;
 		top: 60px;
@@ -200,4 +199,7 @@ p {
 		z-index: 5000;
 	}
 
-}
+}*/
+
+
+
