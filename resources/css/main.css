@@ -91,6 +91,7 @@ p {
 .sword-emote img {
 	max-width: 25%;
 	padding: 1px;
+	max-height: 100px;
 }
 
 
