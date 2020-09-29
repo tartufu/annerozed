@@ -13,7 +13,7 @@ p {
 .hero-banner {
 	background-image: url("../images/hero-banner.png");
 	background-size: cover;
-	height: 100vh;
+/*	height: 100vh;*/
 }
 
 .hero-banner-text {
@@ -21,7 +21,7 @@ p {
 }
 
 .hero-banner-text-div {
-	padding-top: 20%;
+	padding: 20% 5% 20% 5%;
 	text-align: center;
 }
 
@@ -61,6 +61,7 @@ p {
 
 
 .emotes-div {
+	max-width: 960px;
 }
 
 .emotes-div-chunk {
@@ -93,7 +94,6 @@ p {
 	padding: 1px;
 	max-height: 100px;
 }
-
 
 .koma-div {
 }
@@ -192,6 +192,13 @@ p {
 /*https://dev.to/hunterbecton/code-a-skewed-card-design-using-css-2d-transforms-28in
 */
 
+@media only screen and (max-width: 767px) {
+
+/*   h1 { 
+      font-size: 2rem;
+   }
+*/
+}
 
 /*@media screen and (min-width: 1000px) {
 	#koma-color {
